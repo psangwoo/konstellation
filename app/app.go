@@ -95,9 +95,9 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	wasmappparams "github.com/CosmWasm/wasmd/app/params"
-	"github.com/CosmWasm/wasmd/x/wasm"
-	wasmclient "github.com/CosmWasm/wasmd/x/wasm/client"
+	wasmappparams "github.com/psangwoo/konstellation/app/params"
+	"github.com/psangwoo/konstellation/x/wasm"
+	wasmclient "github.com/psangwoo/konstellation/x/wasm/client"
 
 	// unnamed import of statik for swagger UI support
 	_ "github.com/cosmos/cosmos-sdk/client/docs/statik"

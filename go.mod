@@ -3,6 +3,7 @@ module github.com/psangwoo/konstellation
 go 1.17
 
 require (
+	github.com/CosmWasm/wasmd v0.27.0
 	github.com/CosmWasm/wasmvm v1.0.0-beta7
 	github.com/cosmos/cosmos-sdk v0.45.1
 	github.com/cosmos/iavl v0.17.3
