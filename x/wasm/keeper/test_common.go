@@ -66,10 +66,10 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	wasmappparams "github.com/CosmWasm/wasmd/app/params"
+	wasmappparams "github.com/psangwoo/konstellation/app/params"
 
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/wasmtesting"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/psangwoo/konstellation/x/wasm/keeper/wasmtesting"
+	"github.com/psangwoo/konstellation/x/wasm/types"
 )
 
 var ModuleBasics = module.NewBasicManager(

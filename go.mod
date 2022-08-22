@@ -1,4 +1,4 @@
-module github.com/CosmWasm/wasmd
+module github.com/psangwoo/konstellation
 
 go 1.17
 
